@@ -897,6 +897,10 @@ $(function () {
   });
 });
 
+$('#item1').on('click', function(event) {
+	window.location.href = 'proje1.html';
+  });
+
 function register($form) {
   $.ajax({
 	type: $form.attr('method'),
