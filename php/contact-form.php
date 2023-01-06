@@ -32,7 +32,7 @@ if (array_key_exists('email', $_POST)) {
     
     //Send the message to yourself, or whoever should receive contact for submissions
     
-    $mail->addAddress('abcgomel@gmail.com'); //**WRITE HERE RECIPIENT EMAIL ADDRESS (AT THIS ADDRESS EMAILS WILL BE COME)**
+    $mail->addAddress('info@u4verse.com'); //**WRITE HERE RECIPIENT EMAIL ADDRESS (AT THIS ADDRESS EMAILS WILL BE COME)**
     
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
